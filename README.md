@@ -2,16 +2,16 @@
 _A Sign Language Recognition & Communication Aid_
 
 SignEase is a **PHP + MySQL web application** designed to bridge the communication gap for the hearing/speech-impaired community.  
-It enables users to sign up, log in, share posts, and interact seamlessly with an easy-to-use interface.
+It provides an intuitive platform where users can register, sign in, and interact, while administrators manage posts, categories, and users.
 
 ---
 
 ## 🚀 Features
-- 🔐 User authentication (Sign up, Sign in, Logout)
-- 📝 Create, edit, and delete posts
-- 📂 Categories for organizing content
-- 👨‍💼 Admin panel for managing users, posts, and categories
-- 💾 MySQL database integration
+- 🔐 User authentication (Sign up, Sign in, Logout)  
+- 📝 Create, edit, and delete posts  
+- 📂 Categories for organizing content  
+- 👨‍💼 Admin panel for managing users, posts, and categories  
+- 💾 MySQL database integration  
 
 ---
 
@@ -23,25 +23,25 @@ It enables users to sign up, log in, share posts, and interact seamlessly with a
 ---
 
 ## 📂 Project Structure
-
+```
 SignEase/
-│── index.php # Home page
-│── signin.php # User login
-│── signup.php # User registration
-│── sign.php # Sign-related feature page
-│── about.php # About page
-│── contact.php # Contact page
-│── services.php # Services page
+│── index.php             # Home page
+│── signin.php            # User login
+│── signup.php            # User registration
+│── sign.php              # Sign-related feature page
+│── about.php             # About page
+│── contact.php           # Contact page
+│── services.php          # Services page
 │── Database/
-│ └── signease.sql # Database schema
-│── admin/ # Admin dashboard
-│ ├── add-post.php
-│ ├── edit-post.php
-│ ├── manage-users.php
-│ ├── config/
-│ │ └── constants.php
-│ └── ... (other CRUD logic files)
-
+│   └── signease.sql      # Database schema
+│── admin/                # Admin dashboard
+│   ├── add-post.php
+│   ├── edit-post.php
+│   ├── manage-users.php
+│   ├── config/
+│   │   └── constants.php
+│   └── ... (other CRUD logic files)
+```
 
 ---
 
@@ -51,26 +51,43 @@ SignEase/
 ```bash
 git clone https://github.com/ramgopal-m/SignEase.git
 cd SignEase
+```
 
 ### 2️⃣ Setup Database
-
-Open phpMyAdmin (or MySQL CLI)
-
-Create a new database, e.g. signease
-
-Import the SQL file:
-
-Database/signease.sql
+1. Open **phpMyAdmin** (or MySQL CLI)  
+2. Create a new database, e.g. `signease`  
+3. Import the SQL file from:  
+   ```
+   Database/signease.sql
+   ```
 
 ### 3️⃣ Run the Project
+1. Place the project folder inside your web server directory:  
+   - For **XAMPP** → `htdocs/SignEase/`  
+   - For **WAMP/LAMP** → `www/SignEase/`  
+2. Start **Apache** and **MySQL** from your server control panel.  
+3. Open in browser:  
+   ```
+   http://localhost/SignEase
+   ```
 
-Place the project folder inside your web server directory:
+---
 
-For XAMPP → htdocs/SignEase/
+## 📸 Screenshots
+_Add screenshots of homepage, sign-in page, and admin panel here._
 
-For WAMP/LAMP → www/SignEase/
+---
 
-Start Apache and MySQL from your server control panel.
+## 📜 License
+This project is licensed under the **MIT License**.  
 
-Open in browser:
-  
+---
+
+## 👨‍💻 Author
+**Ramgopal Mukhamatam**  
+- GitHub: [@ramgopal-m](https://github.com/ramgopal-m)  
+- Email: ramgopal_mukhamatam@srmap.edu.in  
+
+---
+
+⭐ If you found this project useful, don’t forget to **star the repo**!
