@@ -73,16 +73,6 @@ cd SignEase
 
 ---
 
-## 📸 Screenshots
-_Add screenshots of homepage, sign-in page, and admin panel here._
-
----
-
-## 📜 License
-This project is licensed under the **MIT License**.  
-
----
-
 ## 👨‍💻 Author
 **Ramgopal Mukhamatam**  
 - GitHub: [@ramgopal-m](https://github.com/ramgopal-m)  
